@@ -1,0 +1,61 @@
+title: "REU AICT 2026"
+tagline: "Research Experience for Undergraduates in Accessible Information & Communication Technology"
+description: >-
+  An NSF-funded Research Experience for Undergraduates (REU) Site at
+  Gallaudet University, focused on Accessible Information &
+  Communication Technology (AICT) — bringing deaf, hard-of-hearing,
+  and hearing undergraduates together to do research at the
+  intersection of AI, accessibility, and communication.
+url: "https://gallaudet-university.github.io"
+baseurl: "/reu-aict-2026"
+
+author:
+  name: "Gallaudet University — REU AICT"
+  email: "raja.kushalnagar@gallaudet.edu"
+
+institution:
+  name: "Gallaudet University"
+  department: "Information Technology"
+  address: "800 Florida Ave NE, Washington, DC 20002"
+
+program:
+  year: 2026
+  start_date: "May 26, 2026"
+  end_date: "July 31, 2026"
+  weeks: 10
+  stipend: 7000
+  housing: "On-campus housing provided"
+  travel: "Travel support provided"
+  app_deadline: "February 15, 2026"
+
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Program"
+    url: "/program/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Apply"
+    url: "/apply/"
+  - title: "People"
+    url: "/people/"
+  - title: "Contact"
+    url: "/contact/"
+
+permalink: pretty
+
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - node_modules
+  - .github
