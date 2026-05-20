@@ -6,19 +6,30 @@
 @use "sass:color";
 
 // Colors
+
+// --- Gallaudet brand palette (REU AICT) ---
+$gallaudet-buff:        #c8a951;
+$gallaudet-buff-light:  #f1e3b6;
+$gallaudet-buff-dark:   #a98b3a;
+$gallaudet-navy:        #002855;
+$gallaudet-navy-light:  #1d4380;
+$gallaudet-navy-dark:   #001a3a;
+
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
 $orange-color: #f29105 !default;
 $blue-color: #0076df !default;
 $blue-color-dark: #00369f !default;
-$cyan-color: #2698ba !default;
+// Repoint cyan (used as dark-mode accent) to Gallaudet buff
+$cyan-color: $gallaudet-buff !default;
 $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
 $green-color: #00ab37 !default;
 $green-color-lime: #b7d12a !default;
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
+// Repoint purple (used as light-mode accent) to Gallaudet navy
+$purple-color: $gallaudet-navy !default;
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
