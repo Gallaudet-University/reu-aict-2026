@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "people",
-          description: "Directors, faculty mentors, and program staff for the REU AICT 2026 site.",
+          description: "Directors, faculty mentors, and graduate assistants for the REU AICT 2026 site.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/reu-aict-2026/people/";
