@@ -32,5 +32,18 @@ layout: page
         </div>
       {% endfor %}
     {% endif %}
+
+    {%- comment -%}
+      Render any additional page content (e.g. card grids for non-profile
+      sections like Faculty Mentors or Graduate Assistants) AFTER the
+      profile loop. The default al-folio layout only renders {{ content }}
+      inside a profile that has no `content:` field — this hook lets us
+      always include extra page content at the bottom.
+    {%- endcomment -%}
+    {%- if content and content != '' -%}
+      <div class="post-content">
+        {{ content }}
+      </div>
+    {%- endif -%}
   </article>
 </div>
