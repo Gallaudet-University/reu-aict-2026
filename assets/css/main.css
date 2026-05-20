@@ -284,6 +284,8 @@ li { margin-bottom: .35em; }
   max-width: 720px;
   margin: 0;
 }
+.page-hero--centered { text-align: center; }
+.page-hero--centered .lead { margin-left: auto; margin-right: auto; }
 
 /* --- Page body / prose --- */
 .page-body { padding: 3rem 0 4rem; }
@@ -436,6 +438,61 @@ li { margin-bottom: .35em; }
   font-size: .9rem;
   color: rgba(255,255,255,.7);
 }
+
+/* --- Schedule roadmap --- */
+.roadmap {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0 2.5rem;
+  max-width: 760px;
+}
+
+.week-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--navy-light);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow-card);
+}
+.week-card h3 {
+  margin: .25rem 0 .5rem;
+  font-size: 1.15rem;
+}
+.week-card .week-label {
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  font-size: .78rem;
+  font-weight: 600;
+  color: var(--navy);
+}
+.week-card--milestone {
+  border-left-color: var(--buff);
+  background: linear-gradient(180deg, var(--paper) 0%, var(--paper-alt) 100%);
+}
+.week-card--milestone .week-label { color: var(--buff-dark); }
+
+.event-list {
+  list-style: none;
+  padding: 0;
+  margin: .5rem 0 0;
+}
+.event-list li {
+  padding: .35rem 0 .35rem 1.25rem;
+  border-bottom: 1px dashed rgba(0,40,85,.1);
+  position: relative;
+}
+.event-list li:last-child { border-bottom: 0; }
+.event-list li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: .85rem;
+  width: 6px; height: 6px;
+  background: var(--buff);
+  border-radius: 50%;
+}
+.event-list em { font-style: normal; color: var(--navy); font-weight: 600; }
 
 /* Reduce motion if requested */
 @media (prefers-reduced-motion: reduce) {

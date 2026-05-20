@@ -6,24 +6,24 @@ description: "Summer 2026 Research Experience for Undergraduates in Accessible I
 
 <section class="hero">
   <div class="container hero-inner">
-    <p class="eyebrow">NSF REU Site · Summer 2026</p>
+    <p class="eyebrow">Summer 2026 Research Experience for Undergraduates</p>
     <h1 class="hero-title">
       Accessible Information &amp; Communication Technology
     </h1>
     <p class="hero-lead">
       A 10-week paid summer research experience at Gallaudet University —
-      the world's only university designed to be barrier-free for deaf and
+      the world's only university for deaf and
       hard-of-hearing students — where undergraduates do real research at the
-      intersection of <strong>AI, accessibility, and human communication</strong>.
+      intersection of <strong>AI, accessibility, and human-computer communication</strong>.
     </p>
     <div class="hero-cta">
-      <a class="btn btn-primary" href="{{ '/apply/' | relative_url }}">Apply for Summer 2026</a>
-      <a class="btn btn-ghost" href="{{ '/projects/' | relative_url }}">Browse Research Projects</a>
+      <a class="btn btn-primary" href="{{ '/projects/' | relative_url }}">Research Projects</a>
+      <a class="btn btn-ghost" href="{{ '/schedule/' | relative_url }}">Summer 2026 Schedule</a>
     </div>
     <ul class="hero-stats" aria-label="Program at a glance">
       <li><span class="stat-num">10</span><span class="stat-label">weeks</span></li>
       <li><span class="stat-num">${{ site.program.stipend }}</span><span class="stat-label">stipend</span></li>
-      <li><span class="stat-num">8</span><span class="stat-label">undergraduate researchers</span></li>
+      <li><span class="stat-num">10</span><span class="stat-label">undergraduate researchers</span></li>
       <li><span class="stat-num">DC</span><span class="stat-label">Washington, D.C.</span></li>
     </ul>
   </div>
@@ -119,14 +119,3 @@ description: "Summer 2026 Research Experience for Undergraduates in Accessible I
   </div>
 </section>
 
-<section class="section section-cta">
-  <div class="container cta-inner">
-    <h2>Ready to apply?</h2>
-    <p>
-      Applications for Summer 2026 open <strong>December 1, 2025</strong> and
-      close <strong>{{ site.program.app_deadline }}</strong>. Decisions go out
-      by March 15, 2026.
-    </p>
-    <a class="btn btn-primary btn-large" href="{{ '/apply/' | relative_url }}">Start your application</a>
-  </div>
-</section>

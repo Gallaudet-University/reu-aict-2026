@@ -14,7 +14,7 @@ permalink: /program/
 | **Housing** | {{ site.program.housing }}, free to participants |
 | **Travel** | {{ site.program.travel }} to and from Washington, D.C. |
 | **Location** | Gallaudet University, Washington, D.C. |
-| **Cohort size** | 8 undergraduate researchers |
+| **Cohort size** | 10 undergraduate researchers |
 
 ## What a week looks like
 
@@ -33,15 +33,7 @@ CART captioning is available on request for any activity. Accessible communicati
 
 ## Summer schedule
 
-| Week | Focus |
-|------|-------|
-| 1 | Orientation, lab tours, research ethics, project kickoff |
-| 2 | Literature review, project plan due |
-| 3–4 | Methods workshops, IRB if needed, pilot work |
-| 5 | Mid-summer poster session with cohort and faculty |
-| 6–8 | Core data collection / model building / system development |
-| 9 | Analysis, writing, and abstract submission to ABRCMS / SACNAS / Tapia |
-| 10 | Final symposium, paper drafts, exit interviews |
+The full 10-week schedule — including milestone dates for orientation, mid-summer presentations, and the final symposium — lives on the [Schedule page]({{ '/schedule/' | relative_url }}).
 
 ## Cohort life
 

@@ -20,8 +20,9 @@ institution:
 
 program:
   year: 2026
-  start_date: "May 26, 2026"
-  end_date: "July 31, 2026"
+  arrival_date: "May 19, 2026"
+  start_date: "May 20, 2026"
+  end_date: "July 24, 2026"
   weeks: 10
   stipend: 7000
   housing: "On-campus housing provided"
@@ -33,10 +34,10 @@ nav:
     url: "/"
   - title: "Program"
     url: "/program/"
+  - title: "Schedule"
+    url: "/schedule/"
   - title: "Projects"
     url: "/projects/"
-  - title: "Apply"
-    url: "/apply/"
   - title: "People"
     url: "/people/"
   - title: "Contact"

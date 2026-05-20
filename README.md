@@ -24,7 +24,6 @@ All content lives in plain Markdown at the repo root:
 - `index.md` — home page
 - `program.md` — program structure and schedule
 - `projects.md` — research projects available to apply for
-- `apply.md` — application requirements and dates
 - `people.md` — directors, mentors, staff
 - `contact.md` — contact info
 
