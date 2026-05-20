@@ -13,7 +13,7 @@ profiles:
     image_circular: false
     more_info: >
       <p><b>Principal Investigator · Director</b></p>
-      <p>Professor & Director,<br>Information Technology Program</p>
+      <p>Professor, Gallaudet University</p>
       <p><a href="mailto:raja.kushalnagar@gallaudet.edu">raja.kushalnagar@gallaudet.edu</a></p>
   - align: left
     image: prof_pic.jpg

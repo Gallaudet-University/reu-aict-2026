@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>Information Technology Program<br>
+    <p>REU AICT 2026<br>
     Gallaudet University<br>
     800 Florida Ave NE<br>
     Washington, DC 20002</p>
