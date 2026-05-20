@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://gallaudet-university.github.io/reu-aict-2026/sitemap.xml
