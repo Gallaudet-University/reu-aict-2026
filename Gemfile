@@ -1,33 +1,41 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-# Modern Jekyll — the site is built by our own GitHub Actions workflow,
-# so we don't need to be pinned to the github-pages gem's old Jekyll 3.9.
-gem "jekyll", "~> 4.3"
+gem 'jekyll'
 
+# Core plugins that directly affect site building
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.17"
-  gem "jekyll-seo-tag", "~> 2.8"
-  gem "jekyll-sitemap", "~> 1.4"
+    gem 'jekyll-3rd-party-libraries'
+    gem 'jekyll-archives-v2'
+    gem 'jekyll-cache-bust'
+    gem 'jekyll-email-protect'
+    gem 'jekyll-feed'
+    gem 'jekyll-get-json'
+    gem 'jekyll-imagemagick'
+    gem 'jekyll-jupyter-notebook'
+    gem 'jekyll-link-attributes'
+    gem 'jekyll-minifier'
+    gem 'jekyll-paginate-v2'
+    gem 'jekyll-regex-replace'
+    gem 'jekyll-scholar'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-socials'
+    gem 'jekyll-tabs'
+    gem 'jekyll-terser', :git => "https://github.com/RobertoJBeltran/jekyll-terser.git"
+    gem 'jekyll-toc'
+    gem 'jekyll-twitter-plugin'
+    gem 'jemoji'
+
+    gem 'classifier-reborn'  # used for content categorization during the build
 end
 
-# Windows and JRuby do not include zoneinfo files
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", ">= 1", "< 3"
-  gem "tzinfo-data"
+# Gems for development or external data fetching (outside :jekyll_plugins)
+group :other_plugins do
+    gem 'css_parser'
+    gem 'feedjira'
+    gem 'httparty'
+    gem 'observer'       # used by jekyll-scholar
+    gem 'ostruct'        # used by jekyll-twitter-plugin
+    # gem 'terser'         # used by jekyll-terser
+    # gem 'unicode_utils' -- should be already installed by jekyll
+    # gem 'webrick' -- should be already installed by jekyll
 end
-
-# Performance booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
-
-# kramdown v2 ships without the GFM parser by default
-gem "kramdown-parser-gfm"
-
-# Lock http_parser.rb on JRuby
-gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
-
-# Bundled stdlib gems needed under Ruby 3.4+
-gem "csv"
-gem "base64"
-gem "bigdecimal"
-gem "logger"
-gem "webrick"
