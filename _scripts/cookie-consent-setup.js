@@ -74,7 +74,7 @@ function initializeCookieConsent() {
             description: 'This website uses cookies to improve your experience and analyze site traffic. By clicking "Accept all", you consent to our use of cookies.',
             acceptAllBtn: 'Accept all',
             acceptNecessaryBtn: 'Reject all',
-            showPreferencesBtn: 'Manage Individual preferences'
+            showPreferencesBtn: 'Manage individual preferences'
           },
           preferencesModal: {
             title: 'Manage cookie preferences',
